@@ -1,0 +1,23 @@
+#product-title{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-height: 3rem;
+  
+
+}
+#card-description{
+  overflow: hidden;
+text-overflow: ellipsis;
+line-height: 20px;
+max-height: 100px;
+ padding: 4px 10px;
+ max-width: 400px;
+ -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+}
+#product-image{
+  max-width: 12rem;
+  max-height: 10rem;
+  aspect-ratio:3/4;
+  margin: 10px auto;
+}
